@@ -1,0 +1,199 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header {
+    background: #007BFF; 
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    position: relative;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header .logo img {
+    height: 60px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+
+
+#video {
+    text-align: center;
+}
+
+header .header-content {
+    padding: 20px;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin: 10px 0 0;
+}
+
+#Donde {
+    text-align: center;
+}
+
+#mapa {
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2cm;
+   }
+
+
+.home img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+
+.about {
+    background: #f8f9fa; 
+    padding: 40px 0;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.about-content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+
+.about-text {
+    flex: 1;
+}
+
+#tiki{
+    height: 650px;
+    max-width: auto;
+}
+
+.about-image img {
+    width: 100%;
+    height: 400px;
+    display: block;
+    border-radius: 1.5cm;
+}
+
+
+.services {
+    padding: 40px 20px;
+    background: #007BFF;
+    color: #fff;
+}
+
+.services h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.services-content {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.service-item {
+    background: #0056b3; 
+    padding: 20px;
+    border-radius: 8px;
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.service-item h3 {
+    margin-top: 0;
+}
+
+.service-item p {
+    margin: 10px 0 0;
+}
+
+
+.contact {
+    padding: 40px 20px;
+    background: #007BFF;
+}
+
+.complaint-form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: #f8f9fa; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.complaint-form h3 {
+    margin-top: 0;
+}
+
+.complaint-form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+#contacto {
+    color: #f8f9fa;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.footer-social a{
+    transition: color 1.5s ease-in;
+    color: #3498db; 
+    text-decoration: none; 
+}
+
+footer {
+    text-align: right;
+}
